@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img id="logoimg" src="img/logo.png" alt="Horizon hotel" href="index.html">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Home </a>
+                    </li>
+                    <li>
+                        <a href="#featured">Featured </a>
+                    </li>
+                    <li>
+                        <a href="#services">Services </a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacts </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div id="carousel">
+                <h1>D'Morvie Hotel</h1>
+                <p>Make Your Vacation Comfortable</p>
+                <a href="#form">Book now</a>
+            </div>
+        </section>
+        <section id="form">
+            <form>
+                <select size="3" name="hotelselect">
+                    <option disabled>Select hotel</option>
+                    <option selected value="D'Morvie">D'Morvie Hotel</option>
+                    <option value="Deluxe Hotel">Deluxe Hotel</option>
+                    <option value="Hotel Bora">Hotel Bora</option>
+                </select>
+                <select size="3" name="roomselect">
+                    <option disabled>Select room</option>
+                    <option value="standart">Standart</option>
+                    <option value="luxe">Luxe</option>
+                    <option value="president">President apartaments</option>
+                </select>
+                <input type="date" id="checkin"><label for="checkin">Check in</label>
+                <input type="date" id="checkout"><label for="checkout">Check out</label>
+                <input type="submit">
+            </form>
+        </section>
+        <section id="featured">
+            <h2>FEATURED HOTELS</h2>
+            <div>
+                <div id="deluxe">
+                    <img src="img/deluxe.jpg" alt="Deluxe hotel">
+                    <h3>Deluxe Hotel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
+                        neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
+                        necessitatibus qui, nobis ex expedita ullam?</p>
+                    <a href="#form">Book now</a>
+                </div>
+                <div id="bora">
+                    <img src="img/bora.jpg" alt="Hotel Bora">
+                    <h3>Hotel Bora</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
+                        neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
+                        necessitatibus qui, nobis ex expedita ullam?</p>
+                    <a href="#form">Book now</a>
+                </div>
+                <div id="d'morvie">
+                    <img src="img/dmorvie.jpg" alt="D'Morvie hotel">
+                    <h3>D'Morvie Hotel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
+                        neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
+                        necessitatibus qui, nobis ex expedita ullam?</p>
+                    <a href="#form">Book now</a>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div id="buttons">
+                <button id="restbutton"><img src="img/resticon.png" alt="restaurant"></button>
+                <button id="barbutton"><img src="img/baricon.png" alt="bar"></button>
+                <button id="transferbutton"><img src="img/caricon.png" alt="transfer"></button>
+                <button id="poolbutton"><img src="img/poolicon.png" alt="swimming pool"></button>
+            </div>
+            <div id="restaurant">
+                <img src="img/restaurant.jpg" alt="restaurant">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae expedita officia aliquid
+                    voluptatum ipsum dicta voluptate necessitatibus, quis cum nulla. Adipisci modi suscipit hic, sed
+                    corporis dolor quod excepturi!</p>
+                <p>Service hours</p>
+                <p>7:30 AM - 8:00 PM</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>How you can find us</h3>
+        <section id="contact">
+            <div>
+                <h4>General Contact</h4>
+                <p>Tool-Free: 888-999-8888</p>
+                <p>Phone: 777-888-7777</p>
+                <p>Fax: 666-777-6666</p>
+                <p>Email: office@hotel.com</p>
+            </div>
+            <div style="overflow:hidden;width: 700px;height: 440px;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=New-York%2C%20USA+(D%5C'Morvie%20Hotel)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div><small><a href=""></a></small></div>
+                <div><small><a href="https://iamsterdamcard.it">iamsterdam card.it</a></small></div>
+            </div><br />
+            
+        </section>
+    </footer>
+
+</body>
+
+</html>
