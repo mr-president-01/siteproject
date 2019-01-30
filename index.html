@@ -12,33 +12,33 @@
 
 <body>
     <header>
-        <div id="logo">
-            <a href="index.html"><img id="logoimg" src="img/logo.png" alt="Horizon hotel"></a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#home">Home </a>
-                    </li>
-                    <li>
-                        <a href="#featured">Featured </a>
-                    </li>
-                    <li>
-                        <a href="#services">Services </a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contacts </a>
-                    </li>
+        <nav>
+            <div class="logo"><a href="index.html"><img class="logoimg" src="img/logo.png" alt="Horizon hotel"></a></div>
 
-                </ul>
-            </nav>
-        </div>
+            <ul class="menu">
+                <li>
+                    <div class="menudiv"><a href="#home">Home </a></div>
+                </li>
+                <li>
+                    <div class="menudiv"><a href="#featured">Featured </a></div>
+                </li>
+                <li>
+                    <div class="menudiv"><a href="#services">Services </a></div>
+                </li>
+                <li>
+                    <div class="menudiv"><a href="#contact">Contacts </a></div>
+                </li>
+
+            </ul>
+        </nav>
+
     </header>
     <main>
         <section id="home">
-            <div id="carousel">
+            <div class="carousel">
                 <h1>D'Morvie Hotel</h1>
                 <p>Make Your Vacation Comfortable</p>
-                <a href="#form">Book now</a>
+                <a href="#form"><button href="#form">Book now</button></a>
             </div>
         </section>
         <section id="form">
@@ -63,25 +63,31 @@
         </section>
         <section id="featured">
             <h2>FEATURED HOTELS</h2>
-            <div>
-                <div id="deluxe">
+            <div class="featured">
+                <div class="deluxe">
+                <div class="deluxeimg">
                     <img src="img/deluxe.jpg" alt="Deluxe hotel">
+                </div>
+                <div class="deluxesub">
                     <h3>Deluxe Hotel</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
                         neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
                         necessitatibus qui, nobis ex expedita ullam?</p>
                     <a href="#form">Book now</a>
                 </div>
-                <div id="bora">
+                </div>
+                <div class="bora">
                     <img src="img/bora.jpg" alt="Hotel Bora">
+                
                     <h3>Hotel Bora</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
                         neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
                         necessitatibus qui, nobis ex expedita ullam?</p>
                     <a href="#form">Book now</a>
                 </div>
-                <div id="d'morvie">
+                <div class="dmorvie">
                     <img src="img/dmorvie.jpg" alt="D'Morvie hotel">
+                
                     <h3>D'Morvie Hotel</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellendus, qui illo praesentium
                         neque eius dicta explicabo vitae, voluptatem architecto quos. Voluptate distinctio similique
@@ -92,13 +98,13 @@
         </section>
         <section id="services">
             <h3>Services</h3>
-            <div id="buttons">
+            <div class="buttons">
                 <button id="restbutton"><img src="img/resticon.png" alt="restaurant"></button>
                 <button id="barbutton"><img src="img/baricon.png" alt="bar"></button>
                 <button id="transferbutton"><img src="img/caricon.png" alt="transfer"></button>
                 <button id="poolbutton"><img src="img/poolicon.png" alt="swimming pool"></button>
             </div>
-            <div id="restaurant">
+            <div class="restaurant">
                 <img src="img/restaurant.jpg" alt="restaurant">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae expedita officia aliquid
                     voluptatum ipsum dicta voluptate necessitatibus, quis cum nulla. Adipisci modi suscipit hic, sed
@@ -118,11 +124,11 @@
                 <p>Fax: 666-777-6666</p>
                 <p>Email: office@hotel.com</p>
             </div>
-            <div style="overflow:hidden;width: 700px;height: 440px;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=New-York%2C%20USA+(D%5C'Morvie%20Hotel)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+            <div style="overflow:hidden;width: 600px;height: 400px;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=New-York%2C%20USA+(D%5C'Morvie%20Hotel)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <div><small><a href=""></a></small></div>
                 <div><small><a href="https://iamsterdamcard.it">iamsterdam card.it</a></small></div>
-            </div><br />
+            </div>
 
         </section>
     </footer>
