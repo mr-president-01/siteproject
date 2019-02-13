@@ -73,6 +73,10 @@ header .menudiv:hover{
     font-size: 20px;
     background: lightblue;
 }
+.carousel button:hover{
+    background: black;
+    color: white;
+}
 #form{
     margin: 20px 10px;
 }
